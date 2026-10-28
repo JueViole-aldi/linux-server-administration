@@ -17,7 +17,7 @@ Repositori ini mendokumentasikan praktik administrasi sistem operasi **Linux** b
 > zin Akses & Kepemilikan
 > ![Pengaturan Hak Akses Chmod dan Chown](linux-permissions.png) 
 
----
+
 
 ## 2. Manajemen Paket Aplikasi & Pemantauan Kapasitas Penyimpanan (Disk Monitoring)
 * **Skenario Industri:** Memelihara pembaruan perangkat lunak server melalui repositori resmi serta memantau ketersediaan ruang penyimpanan (*disk space*) dan struktur partisi untuk mencegah server berhenti beroperasi akibat penyimpanan penuh.
