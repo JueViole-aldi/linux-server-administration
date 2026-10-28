@@ -24,8 +24,8 @@ Repositori ini mendokumentasikan praktik administrasi sistem operasi **Linux** b
   * Manajemen Paket: `sudo apt update && sudo apt upgrade`, `sudo apt install`
   * Cek Penyimpanan & Partisi: `df -h`, `du -sh`, `lsblk`
 
-> 📸 **Slot Screenshot 2A (Manajemen Paket APT):** Upload gambar dengan nama `linux-apt.png`, lalu hapus tanda `<!--` dan `-->` di bawah ini.
-<!-- ![Manajemen Paket APT Linux](linux-apt.png) -->
+> Manajemen Paket APT
+> ![Manajemen Paket APT Linux](linux-apt.png)
 
 > 📸 **Slot Screenshot 2B (Monitoring Disk & Partisi):** Upload gambar dengan nama `linux-disk.png`, lalu hapus tanda `<!--` dan `-->` di bawah ini.
 <!-- ![Pemantauan Kapasitas Disk df dan lsblk](linux-disk.png) -->
