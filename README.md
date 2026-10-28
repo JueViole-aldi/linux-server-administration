@@ -10,10 +10,10 @@ Repositori ini mendokumentasikan praktik administrasi sistem operasi **Linux** b
   * Pembuatan User & Grup: `sudo adduser`, `sudo groupadd`, `sudo usermod -aG`
   * Pengaturan Izin Akses & Kepemilikan: `chmod` (Octal/Symbolic), `chown`, dan verifikasi `ls -la`
 
-  **User & Grup**
+ **User & Grup**
 > ![Manajemen User dan Group Linux](linux-users.png)
 
-  **Izin Akses & Kepemilikan**
+ **Izin Akses & Kepemilikan**
 > ![Pengaturan Hak Akses Chmod dan Chown](linux-permissions.png) 
 
 ---
