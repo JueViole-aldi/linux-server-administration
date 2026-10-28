@@ -28,8 +28,8 @@ Repositori ini mendokumentasikan praktik administrasi sistem operasi **Linux** b
 > Manajemen Paket APT
 > ![Manajemen Paket APT Linux](linux-apt.png)
 
-> 📸 **Slot Screenshot 2B (Monitoring Disk & Partisi):** Upload gambar dengan nama `linux-disk.png`, lalu hapus tanda `<!--` dan `-->` di bawah ini.
-<!-- ![Pemantauan Kapasitas Disk df dan lsblk](linux-disk.png) -->
+> Monitoring Disk & Partis
+> ![Pemantauan Kapasitas Disk df dan lsblk](linux-disk.png) -->
 
 ---
 
