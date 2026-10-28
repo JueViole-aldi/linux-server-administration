@@ -14,7 +14,7 @@ Repositori ini mendokumentasikan praktik administrasi sistem operasi **Linux** b
 > User & Grup
 > ![Manajemen User dan Group Linux](linux-users.png)
 
-> zin Akses & Kepemilikan
+> Izin Akses & Kepemilikan
 > ![Pengaturan Hak Akses Chmod dan Chown](linux-permissions.png) 
 
 
