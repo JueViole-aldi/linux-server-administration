@@ -12,8 +12,7 @@ Repositori ini mendokumentasikan praktik administrasi sistem operasi **Linux** b
 
 > ![Manajemen User dan Group Linux](linux-users.png)
 
-> 📸 **Slot Screenshot 1B (Chmod & Chown Permissions):** Upload gambar dengan nama `linux-permissions.png`, lalu hapus tanda `<!--` dan `-->` di bawah ini.
-<!-- ![Pengaturan Hak Akses Chmod dan Chown](linux-permissions.png) -->
+> ![Pengaturan Hak Akses Chmod dan Chown](linux-permissions.png) -->
 
 ---
 
