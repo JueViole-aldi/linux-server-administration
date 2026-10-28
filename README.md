@@ -28,7 +28,7 @@ Repositori ini mendokumentasikan praktik administrasi sistem operasi **Linux** b
 > Manajemen Paket APT
 > ![Manajemen Paket APT Linux](linux-apt.png)
 
-> Monitoring Disk & Partis
+> Monitoring Disk & Partisi
 > ![Pemantauan Kapasitas Disk df dan lsblk](linux-disk.png) 
 
 
