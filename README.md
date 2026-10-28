@@ -29,9 +29,8 @@ Repositori ini mendokumentasikan praktik administrasi sistem operasi **Linux** b
 > ![Manajemen Paket APT Linux](linux-apt.png)
 
 > Monitoring Disk & Partis
-> ![Pemantauan Kapasitas Disk df dan lsblk](linux-disk.png) -->
+> ![Pemantauan Kapasitas Disk df dan lsblk](linux-disk.png) 
 
----
 
 ## 3. Investigasi Masalah Sistem Melalui System Logs (`syslog` & Process Management)
 * **Skenario Industri:** Melakukan *troubleshooting* layanan server yang mengalami kendala dengan memeriksa catatan sistem (*log files*) secara langsung serta memantau penggunaan sumber daya CPU/RAM.
