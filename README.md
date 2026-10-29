@@ -38,8 +38,8 @@ Repositori ini mendokumentasikan praktik administrasi sistem operasi **Linux** b
   * Analisis Log: `cat /var/log/syslog`, `tail -n 20 /var/log/syslog`, `journalctl -xe`, `grep`
   * Manajemen Proses: `top`, `ps aux`, `kill`
 
-> 📸 **Slot Screenshot 3A (Analisis System Log):** Upload gambar dengan nama `linux-syslog.png`, lalu hapus tanda `<!--` dan `-->` di bawah ini.
-<!-- ![ Pembacaan Log Sistem di /var/log/syslog ](linux-syslog.png) -->
+> Analisis System Log
+> ![ Pembacaan Log Sistem di /var/log/syslog ](linux-syslog.png) 
 
 > 📸 **Slot Screenshot 3B (Monitoring Proses CPU/RAM):** Upload gambar dengan nama `linux-process.png`, lalu hapus tanda `<!--` dan `-->` di bawah ini.
 <!-- ![Pemantauan Proses dengan Perintah top](linux-process.png) -->
