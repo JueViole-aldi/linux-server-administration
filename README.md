@@ -46,13 +46,16 @@ Repositori ini mendokumentasikan praktik administrasi sistem operasi **Linux** b
 
 
 ## 4. Prosedur Backup Data, Remote Access (SSH) & Konfigurasi Firewall (UFW)
-* **Skenario Industri:** Mengamankan operasional server melalui kendali jarak jauh terenkripsi (**OpenSSH**), membatasi *port* jaringan yang terbuka menggunakan **Uncomplicated Firewall (UFW)**, serta menjalankan pencadangan (*backup*) direktori penting secara terkompresi.
+* **Skenario Industri:** Mengamankan operasional server melalui kendali jarak jauh terenkripsi (**OpenSSH**), membatasi *port* jaringan yang terbuka menggunakan **Uncomplicated Firewall (UFW)**, menguji akses *remote* lintas sistem operasi dari klien **Windows 10**, serta menjalankan pencadangan (*backup*) direktori penting secara terkompresi.
 * **Perintah CLI Utama:**
-  * Pengamanan Jaringan & SSH: `sudo ufw allow ssh`, `sudo ufw enable`, `sudo ufw status verbose`, `/etc/ssh/sshd_config`
-  * Arsip & Backup Data: `tar -czvf`, `rsync`
+  * Pengamanan Jaringan & SSH: `sudo ufw allow ssh`, `sudo ufw enable`, `sudo ufw status verbose`, `ssh user@ip-server`
+  * Arsip & Backup Data: `tar -czvf`, `ls -lh`
 
-> Remote SSH & Firewall UFW
-> ![Konfigurasi Firewall UFW dan SSH](linux-ufw-ssh.png)
+Konfigurasi Firewall (UFW) & Layanan OpenSSH Server
+![Konfigurasi Firewall UFW dan SSH](linux-ufw-ssh.png)
 
-> Backup Arsip dengan TAR
-> ![Prosedur Backup Direktori dengan Perintah tar](linux-backup.png) 
+Pengujian Remote Login SSH dari Client Windows 10 (CMD)
+![Uji Remote SSH dari Windows 10 ke Linux Server](linux-remote-ssh.png)
+
+Prosedur Backup Direktori Kerja dengan Arsip TAR (`.tar.gz`)
+![Prosedur Backup Direktori dengan Perintah tar](linux-backup.png)
