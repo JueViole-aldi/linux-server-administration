@@ -41,10 +41,9 @@ Repositori ini mendokumentasikan praktik administrasi sistem operasi **Linux** b
 > Analisis System Log
 > ![ Pembacaan Log Sistem di /var/log/syslog ](linux-syslog.png) 
 
-> 📸 **Slot Screenshot 3B (Monitoring Proses CPU/RAM):** Upload gambar dengan nama `linux-process.png`, lalu hapus tanda `<!--` dan `-->` di bawah ini.
-<!-- ![Pemantauan Proses dengan Perintah top](linux-process.png) -->
+> Monitoring Proses CPU/RAM
+> ![Pemantauan Proses dengan Perintah top](linux-process.png) 
 
----
 
 ## 4. Prosedur Backup Data, Remote Access (SSH) & Konfigurasi Firewall (UFW)
 * **Skenario Industri:** Mengamankan operasional server melalui kendali jarak jauh terenkripsi (**OpenSSH**), membatasi *port* jaringan yang terbuka menggunakan **Uncomplicated Firewall (UFW)**, serta menjalankan pencadangan (*backup*) direktori penting secara terkompresi.
