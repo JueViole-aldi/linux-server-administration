@@ -51,8 +51,8 @@ Repositori ini mendokumentasikan praktik administrasi sistem operasi **Linux** b
   * Pengamanan Jaringan & SSH: `sudo ufw allow ssh`, `sudo ufw enable`, `sudo ufw status verbose`, `/etc/ssh/sshd_config`
   * Arsip & Backup Data: `tar -czvf`, `rsync`
 
-> 📸 **Slot Screenshot 4A (Remote SSH & Firewall UFW):** Upload gambar dengan nama `linux-ufw-ssh.png`, lalu hapus tanda `<!--` dan `-->` di bawah ini.
-<!-- ![Konfigurasi Firewall UFW dan SSH](linux-ufw-ssh.png) -->
+> Remote SSH & Firewall UFW
+> ![Konfigurasi Firewall UFW dan SSH](linux-ufw-ssh.png)
 
-> 📸 **Slot Screenshot 4B (Backup Arsip dengan TAR):** Upload gambar dengan nama `linux-backup.png`, lalu hapus tanda `<!--` dan `-->` di bawah ini.
-<!-- ![Prosedur Backup Direktori dengan Perintah tar](linux-backup.png) -->
+> Backup Arsip dengan TAR
+> ![Prosedur Backup Direktori dengan Perintah tar](linux-backup.png) 
