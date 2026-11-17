@@ -5,7 +5,7 @@ Repositori ini mendokumentasikan praktik administrasi sistem operasi **Linux** b
 ---
 
 ## 1. Manajemen Pengguna, Grup & Hak Akses File (Users & Permissions)
-* **Skenario Industri:** Mengatur otorisasi akun staf per divisi dan mengamankan direktori kerja di server agar hanya dapat diakses atau dimodifikasi oleh pengguna yang berwenang.
+* **Skenario:** Mengatur otorisasi akun staf per divisi dan mengamankan direktori kerja di server agar hanya dapat diakses atau dimodifikasi oleh pengguna yang berwenang.
 * **Perintah CLI Utama:**
   * Pembuatan User & Grup: `sudo adduser`, `sudo groupadd`, `sudo usermod -aG`
   * Pengaturan Izin Akses & Kepemilikan: `chmod` (Octal/Symbolic), `chown`, dan verifikasi `ls -la`
@@ -20,7 +20,7 @@ Repositori ini mendokumentasikan praktik administrasi sistem operasi **Linux** b
 
 
 ## 2. Manajemen Paket Aplikasi & Pemantauan Kapasitas Penyimpanan (Disk Monitoring)
-* **Skenario Industri:** Memelihara pembaruan perangkat lunak server melalui repositori resmi serta memantau ketersediaan ruang penyimpanan (*disk space*) dan struktur partisi untuk mencegah server berhenti beroperasi akibat penyimpanan penuh.
+* **Skenario:** Memelihara pembaruan perangkat lunak server melalui repositori resmi serta memantau ketersediaan ruang penyimpanan (*disk space*) dan struktur partisi untuk mencegah server berhenti beroperasi akibat penyimpanan penuh.
 * **Perintah CLI Utama:**
   * Manajemen Paket: `sudo apt update && sudo apt upgrade`, `sudo apt install`
   * Cek Penyimpanan & Partisi: `df -h`, `du -sh`, `lsblk`
@@ -33,7 +33,7 @@ Repositori ini mendokumentasikan praktik administrasi sistem operasi **Linux** b
 
 
 ## 3. Investigasi Masalah Sistem Melalui System Logs (`syslog` & Process Management)
-* **Skenario Industri:** Melakukan *troubleshooting* layanan server yang mengalami kendala dengan memeriksa catatan sistem (*log files*) secara langsung serta memantau penggunaan sumber daya CPU/RAM.
+* **Skenario:** Melakukan *troubleshooting* layanan server yang mengalami kendala dengan memeriksa catatan sistem (*log files*) secara langsung serta memantau penggunaan sumber daya CPU/RAM.
 * **Perintah CLI Utama:**
   * Analisis Log: `cat /var/log/syslog`, `tail -n 20 /var/log/syslog`, `journalctl -xe`, `grep`
   * Manajemen Proses: `top`, `ps aux`, `kill`
@@ -46,7 +46,7 @@ Repositori ini mendokumentasikan praktik administrasi sistem operasi **Linux** b
 
 
 ## 4. Prosedur Backup Data, Remote Access (SSH) & Konfigurasi Firewall (UFW)
-* **Skenario Industri:** Mengamankan operasional server melalui kendali jarak jauh terenkripsi (**OpenSSH**), membatasi *port* jaringan yang terbuka menggunakan **Uncomplicated Firewall (UFW)**, menguji akses *remote* lintas sistem operasi dari klien **Windows 10**, serta menjalankan pencadangan (*backup*) direktori penting secara terkompresi.
+* **Skenario:** Mengamankan operasional server melalui kendali jarak jauh terenkripsi (**OpenSSH**), membatasi *port* jaringan yang terbuka menggunakan **Uncomplicated Firewall (UFW)**, menguji akses *remote* lintas sistem operasi dari klien **Windows 10**, serta menjalankan pencadangan (*backup*) direktori penting secara terkompresi.
 * **Perintah CLI Utama:**
   * Pengamanan Jaringan & SSH: `sudo ufw allow ssh`, `sudo ufw enable`, `sudo ufw status verbose`, `ssh user@ip-server`
   * Arsip & Backup Data: `tar -czvf`, `ls -lh`
@@ -59,3 +59,10 @@ Pengujian Remote Login SSH dari Client Windows 10 (CMD)
 
 Prosedur Backup Direktori Kerja dengan Arsip TAR (`.tar.gz`)
 ![Prosedur Backup Direktori dengan Perintah tar](linux-backup.png)
+
+
+## 5. Otomatisasi Tugas Pemeliharaan (Cron Jobs)
+- **Skenario:** Mengotomatiskan proses pencadangan (*backup*) direktori penting setiap tengah malam agar berjalan rutin tanpa intervensi manual, sehingga keamanan data selalu terjamin.
+- **Perintah CLI Utama:** `crontab -e`, `crontab -l`
+> Jadwal Backup Otomatis
+> ![Konfigurasi crontab backup otomatis](linux-cron.png)
