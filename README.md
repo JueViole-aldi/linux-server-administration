@@ -1,4 +1,4 @@
-# 🐧 Linux (Ubuntu Server) Administration — Lab Documentation
+# 🐧 Linux Ubuntu 26.04.1 LTS — Lab Documentation
 
 Repositori ini mendokumentasikan praktik administrasi sistem operasi **Linux** berbasis baris perintah (*Command Line Interface* / CLI) yang mencakup pengelolaan *user/permissions*, pemantauan penyimpanan, analisis *log*, pencadangan data (*backup*), hingga pengamanan akses server.
 
